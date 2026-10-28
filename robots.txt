@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://asmplayerhifi-sudo.github.io/asm-suite-player-site/sitemap.xml

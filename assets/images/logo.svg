@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080D1A"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#050914"/>
+    </linearGradient>
+    
+    <linearGradient id="cyanNeon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F5A0"/>
+      <stop offset="100%" stop-color="#00B4D8"/>
+    </linearGradient>
+
+    <linearGradient id="amberGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD166"/>
+      <stop offset="100%" stop-color="#FF7043"/>
+    </linearGradient>
+
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Dark Studio Base Badge -->
+  <rect x="24" y="24" width="464" height="464" rx="96" fill="url(#bgGradient)" stroke="#1E293B" stroke-width="4"/>
+
+  <!-- Headphones Band Arch -->
+  <path d="M 130 220 A 130 130 0 0 1 382 220" fill="none" stroke="url(#cyanNeon)" stroke-width="16" stroke-linecap="round" filter="url(#neonGlow)"/>
+  
+  <!-- Headphones Ear Cups -->
+  <rect x="100" y="200" width="32" height="70" rx="16" fill="url(#cyanNeon)"/>
+  <rect x="380" y="200" width="32" height="70" rx="16" fill="url(#cyanNeon)"/>
+
+  <!-- Distinctive ASM Monogram & Equalizer Bar Structure -->
+  <g transform="translate(0, 40)">
+    <!-- Letter A -->
+    <path d="M 135 340 L 175 240 L 215 340 M 150 310 L 200 310" 
+          fill="none" stroke="url(#amberGold)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" filter="url(#neonGlow)"/>
+
+    <!-- Letter S -->
+    <path d="M 275 250 C 240 235 230 270 255 285 C 285 300 275 340 235 335" 
+          fill="none" stroke="url(#cyanNeon)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" filter="url(#neonGlow)"/>
+
+    <!-- Letter M with Equalizer Peaks -->
+    <path d="M 295 340 L 295 240 L 330 290 L 365 240 L 365 340" 
+          fill="none" stroke="url(#amberGold)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" filter="url(#neonGlow)"/>
+  </g>
+
+  <!-- Hi-Fi Studio Equalizer Frequency Spectrum Accent at Base -->
+  <g fill="url(#cyanNeon)">
+    <rect x="156" y="415" width="12" height="24" rx="4"/>
+    <rect x="178" y="405" width="12" height="34" rx="4"/>
+    <rect x="200" y="395" width="12" height="44" rx="4"/>
+    <rect x="222" y="410" width="12" height="29" rx="4"/>
+    <rect x="244" y="385" width="12" height="54" rx="4" fill="url(#amberGold)"/>
+    <rect x="266" y="400" width="12" height="39" rx="4" fill="url(#amberGold)"/>
+    <rect x="288" y="390" width="12" height="49" rx="4"/>
+    <rect x="310" y="408" width="12" height="31" rx="4"/>
+    <rect x="332" y="420" width="12" height="19" rx="4"/>
+    <rect x="354" y="412" width="12" height="27" rx="4"/>
+  </g>
+</svg>

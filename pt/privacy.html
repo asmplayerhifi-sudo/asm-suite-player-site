@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidade — ASM Suite Player</title>
+  <meta name="description" content="Política de Privacidade do ASM Suite Player detalhando o uso do escopo da API do Google Drive, a proteção de dados, o armazenamento e os direitos do usuário conforme GDPR e LGPD.">
+  <meta name="robots" content="index, follow">
+  <meta name="google-site-verification" content="google3342b60c19189181">
+  <link rel="canonical" href="https://asmplayerhifi-sudo.github.io/asm-suite-player-site/pt/privacy.html">
+  <link rel="alternate" hreflang="pt-BR" href="https://asmplayerhifi-sudo.github.io/asm-suite-player-site/privacy.html">
+  <link rel="alternate" hreflang="pt" href="https://asmplayerhifi-sudo.github.io/asm-suite-player-site/pt/privacy.html">
+  <link rel="alternate" hreflang="x-default" href="https://asmplayerhifi-sudo.github.io/asm-suite-player-site/privacy.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://asmplayerhifi-sudo.github.io/asm-suite-player-site/pt/privacy.html">
+  <meta property="og:title" content="Política de Privacidade — ASM Suite Player">
+  <meta property="og:description" content="Saiba como o ASM Suite Player respeita a privacidade dos seus dados e usa o escopo somente leitura da API do Google Drive estritamente para a reprodução de músicas autorizada pelo usuário.">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" href="../assets/images/logo.png">
+  <link rel="manifest" href="../site.webmanifest">
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo">
+        <img src="../assets/images/logo.png" alt="Logotipo do ASM Suite Player">
+        <span>ASM Suite Player</span>
+      </a>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Alternar navegação">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="index.html#features">Recursos</a></li>
+        <li><a href="privacy.html" class="active">Política de Privacidade</a></li>
+        <li><a href="terms.html">Termos de Serviço</a></li>
+        <li><a href="contact.html">Contato</a></li>
+        <li><a href="../privacy.html" class="lang-switch" hreflang="pt-BR" lang="pt-BR" title="English"><i class="fa-solid fa-language"></i> EN</a></li>
+        <li>
+          <a href="https://github.com/AndersonFCanel/ASM-Suite-Player" target="_blank" rel="noopener" class="btn-outline">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Document Container -->
+  <main class="container doc-container">
+    <div class="doc-header">
+      <h1>Política de Privacidade</h1>
+      <p class="doc-meta">
+        <strong>Nome do Aplicativo:</strong> ASM Suite Player | 
+        <strong>Última Atualização:</strong> 4 de agosto de 2026
+      </p>
+    </div>
+
+    <article class="doc-content">
+      <div class="doc-box">
+        <h3 style="margin-top: 0; color: var(--accent-cyan);">Garantia Resumida</h3>
+        <p style="margin-bottom: 0;">
+          O <strong>ASM Suite Player</strong> foi criado com foco rigoroso na privacidade dos dados. Não vendemos seus dados pessoais,
+          não rastreamos seus hábitos de escuta e não coletamos seus arquivos de música.
+          Todo o processamento, a extração de metadados e a síntese de áudio do equalizador ocorrem inteiramente no seu dispositivo local.
+        </p>
+      </div>
+
+      <h2>1. Informações que Acessamos e Por Quê</h2>
+      <p>
+        O <strong>ASM Suite Player</strong> precisa de acesso a recursos específicos do dispositivo e da nuvem exclusivamente para oferecer
+        os recursos de reprodução de mídia solicitados pelo usuário:
+      </p>
+      <ul>
+        <li>
+          <strong>Dados da API do Google Drive (armazenamento na nuvem):</strong> Quando você opta por vincular sua conta Google,
+          o aplicativo acessa as pastas autorizadas do seu Google Drive para procurar arquivos de áudio/vídeo, ler os metadados das faixas
+          (como títulos ID3, nomes de artistas, títulos de álbuns e capas embutidas) e transmitir os dados de áudio diretamente para o seu player.
+        </li>
+        <li>
+          <strong>Armazenamento local do dispositivo:</strong> Acesso às pastas de mídia locais para reproduzir arquivos de áudio armazenados no aparelho,
+          salvar presets personalizados do equalizador e manter em cache as faixas offline selecionadas por você.
+        </li>
+      </ul>
+
+      <h2>2. Divulgação da API do Google Drive e do OAuth 2.0</h2>
+      <p>
+        O <strong>ASM Suite Player</strong> cumpre rigorosamente a
+        <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Política de Dados do Usuário dos Serviços de API do Google</a>,
+        incluindo os requisitos de Uso Limitado.
+      </p>
+      <ul>
+        <li>
+          <strong>Escopo solicitado:</strong> <code style="background: rgba(255,255,255,0.1); padding: 2px 6px; border-radius: 4px; color: var(--accent-cyan);">https://www.googleapis.com/auth/drive.readonly</code>
+        </li>
+        <li>
+          <strong>Finalidade do acesso:</strong> O acesso somente leitura é usado estritamente para permitir que você navegue, pesquise, transmita
+          e baixe seus arquivos de áudio para o dispositivo, para reprodução offline dentro do <strong>ASM Suite Player</strong>.
+        </li>
+        <li>
+          <strong>Nenhuma transferência a terceiros:</strong> O aplicativo não envia, compartilha nem transmite seus arquivos do Google Drive,
+          tokens de acesso ou informações de perfil da conta para nenhum servidor externo ou terceiro.
+        </li>
+        <li>
+          <strong>Nenhuma modificação:</strong> Como o escopo solicitado é somente leitura, o <strong>ASM Suite Player</strong>
+          não pode modificar, excluir nem sobrescrever nenhum arquivo da sua conta do Google Drive.
+        </li>
+      </ul>
+
+      <h2>3. Armazenamento e Retenção de Dados</h2>
+      <p>
+        Todos os dados do aplicativo (como bancos de índice, caches de faixas offline e preferências do usuário) são armazenados localmente no seu dispositivo:
+      </p>
+      <ul>
+        <li>
+          <strong>Indexação local:</strong> Os metadados extraídos dos seus arquivos de música são armazenados em um banco de dados local criptografado no seu dispositivo, para permitir buscas rápidas offline.
+        </li>
+        <li>
+          <strong>Tokens OAuth:</strong> Os tokens de autenticação são armazenados com segurança no armazenamento criptografado do seu dispositivo (KeyStore no Android / DPAPI no Windows).
+        </li>
+        <li>
+          <strong>Período de retenção:</strong> Os dados locais são mantidos até que você saia da conta, redefina a biblioteca do aplicativo, limpe os dados do app ou desinstale o aplicativo.
+        </li>
+      </ul>
+
+      <h2>4. Remoção de Dados e Como Revogar o Acesso</h2>
+      <p>
+        Você mantém controle total sobre seus dados e permissões o tempo todo:
+      </p>
+      <ul>
+        <li>
+          <strong>Remoção dentro do app:</strong> Você pode desconectar sua conta do Google Drive a qualquer momento em Configurações &gt; Nuvem &gt; Sair, ou executando a opção de redefinir a biblioteca dentro do <strong>ASM Suite Player</strong>. Isso apaga imediatamente todos os tokens em cache e os metadados indexados.
+        </li>
+        <li>
+          <strong>Revogação pela conta Google:</strong> Você pode revogar o acesso do <strong>ASM Suite Player</strong> a qualquer momento acessando as
+          <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">configurações de acesso de terceiros da sua Conta Google</a>.
+        </li>
+      </ul>
+
+      <h2>5. Cookies, Análises e Publicidade</h2>
+      <p>
+        O <strong>ASM Suite Player</strong> não usa cookies, redes de publicidade, ferramentas de telemetria nem SDKs de análise de terceiros.
+        Não coletamos telemetria, relatórios de falhas contendo informações pessoais nem análises de escuta.
+      </p>
+
+      <h2>6. Direitos do Usuário (Conformidade com GDPR e LGPD)</h2>
+      <p>
+        De acordo com o Regulamento Geral de Proteção de Dados (GDPR) e com a Lei Geral de Proteção de Dados brasileira (LGPD), os usuários têm o direito de:
+      </p>
+      <ul>
+        <li>Acessar, revisar ou excluir quaisquer dados locais armazenados pelo app no seu dispositivo.</li>
+        <li>Revogar o consentimento para o acesso à API do Google Drive a qualquer momento.</li>
+        <li>Solicitar esclarecimentos sobre as práticas de tratamento de dados.</li>
+      </ul>
+
+      <h2>7. Fale Conosco</h2>
+      <p>
+        Se você tiver dúvidas, preocupações ou solicitações sobre esta Política de Privacidade ou sobre a segurança dos dados no <strong>ASM Suite Player</strong>, entre em contato:
+      </p>
+      <div class="doc-box">
+        <p><strong>E-mail oficial de contato:</strong> <a href="mailto:asm.player.hifi@gmail.com">asm.player.hifi@gmail.com</a></p>
+        <p><strong>Repositório no GitHub:</strong> <a href="https://github.com/AndersonFCanel/ASM-Suite-Player" target="_blank" rel="noopener">https://github.com/AndersonFCanel/ASM-Suite-Player</a></p>
+      </div>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom">
+        <div>&copy; 2026 ASM Suite Player. Todos os direitos reservados.</div>
+        <div><a href="index.html">Início</a> | <a href="terms.html">Termos de Serviço</a> | <a href="contact.html">Contato</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

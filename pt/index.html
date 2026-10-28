@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ASM Suite Player — Site Oficial e Player de Áudio Hi-Fi para Google Drive</title>
+  <meta name="description" content="O ASM Suite Player é um player de áudio de alta fidelidade que se conecta ao seu Google Drive para transmitir, indexar e reproduzir sua coleção pessoal de música.">
+  <meta name="keywords" content="ASM Suite Player, player de música Google Drive, player de áudio Hi-Fi, player FLAC, equalizador DSP, música na nuvem offline">
+  <meta name="author" content="ASM Suite Player Team">
+  <meta name="robots" content="index, follow">
+  <meta name="google-site-verification" content="google3342b60c19189181">
+  <link rel="canonical" href="https://asmplayerhifi-sudo.github.io/asm-suite-player-site/pt/">
+  <link rel="alternate" hreflang="pt-BR" href="https://asmplayerhifi-sudo.github.io/asm-suite-player-site/">
+  <link rel="alternate" hreflang="pt" href="https://asmplayerhifi-sudo.github.io/asm-suite-player-site/pt/">
+  <link rel="alternate" hreflang="x-default" href="https://asmplayerhifi-sudo.github.io/asm-suite-player-site/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://asmplayerhifi-sudo.github.io/asm-suite-player-site/pt/">
+  <meta property="og:title" content="ASM Suite Player — Player de Áudio Hi-Fi com Biblioteca na Nuvem do Google Drive">
+  <meta property="og:description" content="O ASM Suite Player permite transmitir, indexar e reproduzir sua coleção pessoal de música diretamente do Google Drive.">
+  <meta property="og:image" content="https://asmplayerhifi-sudo.github.io/asm-suite-player-site/assets/images/logo.png">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ASM Suite Player — Player de Áudio Hi-Fi">
+  <meta name="twitter:description" content="Transmita áudio de alta fidelidade do Google Drive com equalizador de estúdio e zero rastreamento de dados.">
+  <meta name="twitter:image" content="https://asmplayerhifi-sudo.github.io/asm-suite-player-site/assets/images/logo.png">
+
+  <!-- Favicons & Manifest -->
+  <link rel="icon" type="image/png" href="../assets/images/logo.png">
+  <link rel="manifest" href="../site.webmanifest">
+
+  <!-- Fonts & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo">
+        <img src="../assets/images/logo.png" alt="Logotipo do ASM Suite Player">
+        <span>ASM Suite Player</span>
+      </a>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Alternar navegação">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Início</a></li>
+        <li><a href="#purpose">Finalidade do App</a></li>
+        <li><a href="#features">Recursos</a></li>
+        <li><a href="#how-it-works">Como Funciona</a></li>
+        <li><a href="privacy.html">Política de Privacidade</a></li>
+        <li><a href="terms.html">Termos de Serviço</a></li>
+        <li><a href="contact.html">Contato</a></li>
+        <li><a href="../index.html" class="lang-switch" hreflang="pt-BR" lang="pt-BR" title="English"><i class="fa-solid fa-language"></i> EN</a></li>
+        <li>
+          <a href="https://github.com/AndersonFCanel/ASM-Suite-Player" target="_blank" rel="noopener" class="btn-outline">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-badge">
+        <i class="fa-solid fa-shield-halved"></i> Verificado pelo Google OAuth e Privacidade em Primeiro Lugar
+      </div>
+
+      <h1 class="hero-title">ASM Suite Player</h1>
+      <p class="hero-subtitle">Player de Áudio de Alta Fidelidade e Biblioteca de Mídia na Nuvem para Google Drive</p>
+
+      <!-- EXPLICIT APPLICATION PURPOSE BOX FOR GOOGLE VERIFICATION -->
+      <div style="background: rgba(15, 23, 42, 0.95); border: 2px solid var(--accent-cyan); border-radius: var(--radius-lg); padding: 36px; margin: 0 auto 36px; max-width: 950px; text-align: left; box-shadow: 0 10px 30px rgba(6, 182, 212, 0.15);" id="purpose">
+        <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 20px; border-bottom: 1px solid rgba(255,255,255,0.1); padding-bottom: 16px;">
+          <i class="fa-solid fa-circle-info" style="font-size: 2.2rem; color: var(--accent-cyan);"></i>
+          <div>
+            <h2 style="font-size: 1.6rem; color: #FFFFFF; margin: 0;">Finalidade do Aplicativo e Integração com a API do Google Drive</h2>
+            <span style="color: var(--accent-cyan); font-size: 0.9rem; font-weight: 600;">Divulgação Oficial do Escopo OAuth 2.0 do ASM Suite Player</span>
+          </div>
+        </div>
+
+        <p style="color: #F1F5F9; font-size: 1.08rem; line-height: 1.7; margin-bottom: 20px;">
+          <strong>ASM Suite Player</strong> é um player de música audiófilo de alta fidelidade para Android e Windows. A finalidade principal do aplicativo é permitir que os usuários reproduzam, organizem e transmitam sua biblioteca de áudio digital pessoal armazenada na conta do <strong>Google Drive</strong>.
+        </p>
+
+        <div style="background: rgba(30, 41, 59, 0.7); border-left: 4px solid var(--accent-cyan); padding: 18px 22px; border-radius: 0 8px 8px 0; margin-bottom: 24px;">
+          <h3 style="color: #FFFFFF; font-size: 1.1rem; margin: 0 0 10px 0; display: flex; align-items: center; gap: 8px;">
+            <i class="fa-brands fa-google-drive" style="color: var(--accent-cyan);"></i>
+            Escopo OAuth do Google Drive solicitado:
+          </h3>
+          <code style="background: rgba(15, 23, 42, 0.9); padding: 6px 12px; border-radius: 6px; color: var(--accent-cyan); font-size: 0.95rem; font-family: monospace; display: inline-block; margin-bottom: 10px;">https://www.googleapis.com/auth/drive.readonly</code>
+          <p style="color: #CBD5E1; font-size: 0.95rem; line-height: 1.6; margin: 0;">
+            Esta permissão concede ao <strong>ASM Suite Player</strong> acesso <em>somente leitura</em> aos arquivos do Google Drive do usuário. O app usa esta permissão estritamente para os seguintes recursos essenciais solicitados pelo usuário:
+          </p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-bottom: 24px;">
+          <div style="background: rgba(15, 23, 42, 0.6); padding: 16px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05);">
+            <i class="fa-solid fa-folder-open" style="color: var(--accent-cyan); font-size: 1.2rem; margin-bottom: 8px;"></i>
+            <h4 style="color: #FFFFFF; margin: 0 0 6px 0; font-size: 0.98rem;">1. Seleção da Biblioteca Musical</h4>
+            <p style="color: #94A3B8; font-size: 0.88rem; margin: 0; line-height: 1.5;">Permite que os usuários naveguem e selecionem pastas de áudio pessoais no Google Drive para varrer e indexar.</p>
+          </div>
+
+          <div style="background: rgba(15, 23, 42, 0.6); padding: 16px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05);">
+            <i class="fa-solid fa-tags" style="color: var(--accent-cyan); font-size: 1.2rem; margin-bottom: 8px;"></i>
+            <h4 style="color: #FFFFFF; margin: 0 0 6px 0; font-size: 0.98rem;">2. Metadados e Capas de Álbum</h4>
+            <p style="color: #94A3B8; font-size: 0.88rem; margin: 0; line-height: 1.5;">Lê tags ID3, nomes de artistas, números de faixa e capas embutidas para exibição na biblioteca.</p>
+          </div>
+
+          <div style="background: rgba(15, 23, 42, 0.6); padding: 16px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05);">
+            <i class="fa-solid fa-headphones" style="color: var(--accent-cyan); font-size: 1.2rem; margin-bottom: 8px;"></i>
+            <h4 style="color: #FFFFFF; margin: 0 0 6px 0; font-size: 0.98rem;">3. Streaming Direto de Áudio</h4>
+            <p style="color: #94A3B8; font-size: 0.88rem; margin: 0; line-height: 1.5;">Transmite áudio FLAC sem perdas, WAV, MP3 e AAC diretamente para o motor de áudio de estúdio do app.</p>
+          </div>
+
+          <div style="background: rgba(15, 23, 42, 0.6); padding: 16px; border-radius: 8px; border: 1px solid rgba(255,255,255,0.05);">
+            <i class="fa-solid fa-cloud-arrow-down" style="color: var(--accent-cyan); font-size: 1.2rem; margin-bottom: 8px;"></i>
+            <h4 style="color: #FFFFFF; margin: 0 0 6px 0; font-size: 0.98rem;">4. Cache Offline</h4>
+            <p style="color: #94A3B8; font-size: 0.88rem; margin: 0; line-height: 1.5;">Permite fixar faixas selecionadas para reprodução com o dispositivo offline, sem internet.</p>
+          </div>
+        </div>
+
+        <div style="background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 8px; padding: 16px; text-align: center;">
+          <p style="color: #34D399; font-size: 0.95rem; font-weight: 600; margin: 0; display: flex; align-items: center; justify-content: center; gap: 8px;">
+            <i class="fa-solid fa-shield-halved"></i> Proteção de Dados e Zero Compartilhamento com Terceiros
+          </p>
+          <p style="color: #A7F3D0; font-size: 0.88rem; margin: 6px 0 0 0; line-height: 1.5;">
+            O ASM Suite Player opera inteiramente de forma local no seu dispositivo. Nenhum arquivo de áudio, token ou metadado pessoal é enviado, vendido ou compartilhado com servidores externos ou terceiros.
+          </p>
+        </div>
+      </div>
+
+      <div class="hero-actions">
+        <a href="privacy.html" class="btn-cta">
+          <i class="fa-solid fa-file-shield"></i> Ler Política de Privacidade
+        </a>
+        <a href="terms.html" class="btn-outline">
+          <i class="fa-solid fa-file-contract"></i> Termos de Serviço
+        </a>
+        <a href="https://github.com/AndersonFCanel/ASM-Suite-Player" target="_blank" rel="noopener" class="btn-outline">
+          <i class="fa-brands fa-github"></i> Código-Fonte no GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="section" id="features">
+    <div class="container">
+      <h2 class="section-title">Recursos Completos de Estúdio</h2>
+      <p class="section-subtitle">Projetado para audiófilos e amantes da música que exigem qualidade de áudio impecável e liberdade na nuvem.</p>
+
+      <div class="grid-cards">
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-compact-disc"></i></div>
+          <h3 class="card-title">Áudio Hi-Fi</h3>
+          <p class="card-desc">Motor de áudio lossless de 32 bits float com suporte a FLAC, WAV, DSD, ALAC, MP3 e AAC e capacidade de saída bit-perfect.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fa-brands fa-google-drive"></i></div>
+          <h3 class="card-title">Integração com o Google Drive</h3>
+          <p class="card-desc">Transmita sua coleção de música na nuvem diretamente do Google Drive, de forma fluida, com autenticação OAuth somente leitura.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-cloud-arrow-down"></i></div>
+          <h3 class="card-title">Biblioteca Offline</h3>
+          <p class="card-desc">Fixe músicas avulsas ou pastas inteiras da nuvem para reprodução offline instantânea, sem consumir dados móveis.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-sliders"></i></div>
+          <h3 class="card-title">DSP de Áudio</h3>
+          <p class="card-desc">Pipeline avançado de processamento de sinal com limitador, compressor, balanço espacial e estágios de ganho dinâmicos.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-wave-square"></i></div>
+          <h3 class="card-title">Equalizador</h3>
+          <p class="card-desc">Equalizador paramétrico de estúdio com presets de bandas personalizados, analisador de espectro FFT em tempo real e controles de tonalidade.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-film"></i></div>
+          <h3 class="card-title">Player de Vídeo</h3>
+          <p class="card-desc">Player de vídeo integrado de alto desempenho, com seleção de faixas de áudio embutidas, atraso de legendas e ajuste de sincronia.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-images"></i></div>
+          <h3 class="card-title">Galeria de Fotos</h3>
+          <p class="card-desc">Veja capas embutidas, imagens de encartes e galerias de fotos de artistas associadas às pastas dos seus álbuns.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-rotate"></i></div>
+          <h3 class="card-title">Sincronização de Pastas</h3>
+          <p class="card-desc">Mantenha as pastas da biblioteca local e da nuvem sincronizadas automaticamente com varredura inteligente em segundo plano.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-server"></i></div>
+          <h3 class="card-title">Biblioteca na Nuvem</h3>
+          <p class="card-desc">Organize e pesquise sua biblioteca de música na nuvem por artista, álbum, gênero ou hierarquia de pastas personalizada, sem esforço.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-circle-info"></i></div>
+          <h3 class="card-title">Leitor de Metadados</h3>
+          <p class="card-desc">Extrai tags ID3, Vorbis e FLAC, taxa de bits, taxa de amostragem, canais e capas de álbum em alta resolução.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-list-check"></i></div>
+          <h3 class="card-title">Playlists</h3>
+          <p class="card-desc">Crie, gerencie e exporte playlists personalizadas misturando arquivos locais e faixas do Google Drive de forma integrada.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-forward-step"></i></div>
+          <h3 class="card-title">Reprodução Gapless</h3>
+          <p class="card-desc">Transições entre faixas sem pausas, para shows ao vivo, ópera e álbuns conceituais contínuos.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-play"></i></div>
+          <h3 class="card-title">Reprodução em Segundo Plano</h3>
+          <p class="card-desc">Reprodução contínua em segundo plano com controles de mídia na tela de bloqueio e integração com a barra de notificações.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-image"></i></div>
+          <h3 class="card-title">Capas de Álbum</h3>
+          <p class="card-desc">Exibição de capas em alta resolução com incorporação automática e temas visuais de fundo com espectro.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon"><i class="fa-solid fa-folder-tree"></i></div>
+          <h3 class="card-title">Grandes Coleções Musicais</h3>
+          <p class="card-desc">Projetado para indexar e gerenciar grandes coleções com milhares de arquivos de áudio em alta resolução com fluidez.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="section" id="how-it-works" style="background: rgba(15, 23, 42, 0.5);">
+    <div class="container">
+      <h2 class="section-title">Como Funciona</h2>
+      <p class="section-subtitle">Acesso simples, seguro e privado à sua coleção pessoal de música na nuvem.</p>
+
+      <div class="workflow-steps">
+        <div class="step-item">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Login do Usuário</h3>
+            <p>Abra o <strong>ASM Suite Player</strong> no seu dispositivo e inicie a autenticação da conta Google.</p>
+          </div>
+        </div>
+
+        <div class="step-item">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Autorize o Acesso ao Google Drive</h3>
+            <p>Conceda permissão somente leitura (<code style="color: var(--accent-cyan);">drive.readonly</code>) para permitir que o app visualize e reproduza seus arquivos de áudio autorizados.</p>
+          </div>
+        </div>
+
+        <div class="step-item">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>Selecione as Pastas de Música</h3>
+            <p>Escolha quais pastas do Google Drive contêm sua biblioteca de música para indexar.</p>
+          </div>
+        </div>
+
+        <div class="step-item">
+          <div class="step-number">4</div>
+          <div class="step-content">
+            <h3>Sincronização da Biblioteca</h3>
+            <p>O app indexa os metadados dos arquivos localmente no seu dispositivo para busca rápida e exibição de capas.</p>
+          </div>
+        </div>
+
+        <div class="step-item">
+          <div class="step-number">5</div>
+          <div class="step-content">
+            <h3>Reprodução na Nuvem ou Offline</h3>
+            <p>Escolha entre transmitir as faixas diretamente da nuvem ou fixá-las para ouvir offline.</p>
+          </div>
+        </div>
+
+        <div class="step-item">
+          <div class="step-number">6</div>
+          <div class="step-content">
+            <h3>Reprodução Direta em Alta Fidelidade</h3>
+            <p>Aproveite som de nível de estúdio processado diretamente pelo motor de áudio local no seu hardware.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Privacy Summary Section -->
+  <section class="section" id="privacy">
+    <div class="container">
+      <div style="background: var(--bg-card); border: 1px solid var(--border-active); border-radius: var(--radius-lg); padding: 40px;" class="glassmorphism">
+        <div style="display: flex; align-items: center; gap: 16px; margin-bottom: 20px;">
+          <i class="fa-solid fa-shield-halved" style="font-size: 2.2rem; color: var(--accent-cyan);"></i>
+          <h2 style="font-size: 1.8rem;">Garantia de Privacidade e Transparência</h2>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; margin-bottom: 30px;">
+          <div style="background: rgba(15, 23, 42, 0.6); padding: 20px; border-radius: var(--radius-md);">
+            <i class="fa-solid fa-ban" style="color: #F87171; font-size: 1.4rem; margin-bottom: 10px;"></i>
+            <h4 style="margin-bottom: 6px;">Não Coletamos Músicas</h4>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">Seus arquivos de áudio permanecem 100% no seu dispositivo pessoal e no Google Drive.</p>
+          </div>
+
+          <div style="background: rgba(15, 23, 42, 0.6); padding: 20px; border-radius: var(--radius-md);">
+            <i class="fa-solid fa-user-shield" style="color: #F87171; font-size: 1.4rem; margin-bottom: 10px;"></i>
+            <h4 style="margin-bottom: 6px;">Não Compartilhamos Arquivos</h4>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">Nenhum dado, stream de áudio ou metadado é compartilhado com terceiros.</p>
+          </div>
+
+          <div style="background: rgba(15, 23, 42, 0.6); padding: 20px; border-radius: var(--radius-md);">
+            <i class="fa-solid fa-hand-holding-dollar" style="color: #F87171; font-size: 1.4rem; margin-bottom: 10px;"></i>
+            <h4 style="margin-bottom: 6px;">Não Vendemos Dados</h4>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">Não operamos publicidade, rastreadores de análise nem telemetria.</p>
+          </div>
+
+          <div style="background: rgba(15, 23, 42, 0.6); padding: 20px; border-radius: var(--radius-md);">
+            <i class="fa-solid fa-key" style="color: var(--accent-cyan); font-size: 1.4rem; margin-bottom: 10px;"></i>
+            <h4 style="margin-bottom: 6px;">Somente o Escopo Mínimo</h4>
+            <p style="color: var(--text-muted); font-size: 0.9rem;">Solicitamos apenas as permissões estritamente necessárias para oferecer o streaming de música solicitado pelo usuário.</p>
+          </div>
+        </div>
+
+        <div style="text-align: center;">
+          <a href="privacy.html" class="btn-cta">
+            <i class="fa-solid fa-file-shield"></i> Ler a Política de Privacidade Completa
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+            <img src="../assets/images/logo.png" alt="Logotipo do ASM Suite Player" style="width: 32px; height: 32px;">
+            <h3 style="margin: 0; font-size: 1.2rem;">ASM Suite Player</h3>
+          </div>
+          <p>Player de áudio Hi-Fi com biblioteca na nuvem do Google Drive. Criado para privacidade, desempenho e qualidade sonora audiófila.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="#purpose">Finalidade do App</a></li>
+            <li><a href="#features">Recursos</a></li>
+            <li><a href="#how-it-works">Como Funciona</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Legal e Segurança</h4>
+          <ul>
+            <li><a href="privacy.html">Política de Privacidade</a></li>
+            <li><a href="terms.html">Termos de Serviço</a></li>
+            <li><a href="https://support.google.com/cloud/answer/15549049" target="_blank" rel="noopener">Verificação do Google OAuth</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Comunidade e Suporte</h4>
+          <ul>
+            <li><a href="contact.html">Fale Conosco</a></li>
+            <li><a href="https://github.com/AndersonFCanel/ASM-Suite-Player" target="_blank" rel="noopener">Repositório no GitHub</a></li>
+            <li><a href="https://github.com/AndersonFCanel/ASM-Suite-Player/issues" target="_blank" rel="noopener">Reportar Problema</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 ASM Suite Player. Todos os direitos reservados.</div>
+        <div>Projetado para Google OAuth e Liberdade de Código Aberto</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>
